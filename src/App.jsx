@@ -9,6 +9,7 @@ import View from './pages/View'
 import WhishList from './pages/WhishList'
 
 
+
 function App() {
 
   return (
