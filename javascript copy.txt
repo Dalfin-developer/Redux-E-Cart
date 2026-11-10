@@ -589,6 +589,10 @@ HTTP methods - tells the server what action the client want to prepare
         - createReducer() - Used to create reducer, update state will be stored in the reducer.
         - createAction() -  used to generate action ,logic to update state value.
         - createSlice() - used to combine action and its reducer together.
+        - createAsyncThunk() - used to make asynchronous action in redux ,it accepts an action type string and a function that returns a promise
+          and generates a thunk that dispatches pending/fullfilled/rejected action types based on that promise.
+        - extraReducers() - it is used to handle the actions that is happened  outside the slice 
+
 
             SDLC - Software Development Life Cycle
 ------------------------------------------------------------------
